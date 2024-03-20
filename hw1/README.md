@@ -31,7 +31,7 @@ Xeon и AMD Opteron. Первая предполагает общую шину �
     Размер кэш линии: 128 Байт
     Точность: 0.1
     Функция: 
-![Image alt](https://github.com/{SurfaceYellowDuck}/{comp_math}/tree/{main}/{hw1}/u.png)
+![Image alt](https://github.com/SurfaceYellowDuck/comp_math/blob/main/hw1/u.png)
 
 Предположение: оптимизация никак не должна уменьшить время работы программы.
 
@@ -69,7 +69,7 @@ https://docs.google.com/spreadsheets/d/1Kr6mBshpPjPIK5w6MVPC9n3UVmfN_N63pcOBlvkA
     k = 20
     Начальное приближение: диапазоны случайных чисел [-100; 100], [-1000;1000]
     Функция:
-![Image alt](https://github.com/{SurfaceYellowDuck}/{comp_math}/tree/{main}/{hw1}/u.png)
+![Image alt](https://github.com/SurfaceYellowDuck/comp_math/blob/main/hw1/u.png)
 
 Ход эксперимента:
   Было проведено по 10 запусков программы, результаты представлены в файлах res 1, 
