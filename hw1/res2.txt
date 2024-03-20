@@ -1,0 +1,30 @@
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 12.838951 seconds for 1002 grid
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 12.834278 seconds for 1002 grid
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 12.814672 seconds for 1002 grid
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 12.927564 seconds for 1002 grid
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 12.800377 seconds for 1002 grid
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 12.846225 seconds for 1002 grid
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 12.884684 seconds for 1002 grid
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 12.924514 seconds for 1002 grid
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 12.818663 seconds for 1002 grid
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 12.848389 seconds for 1002 grid
+

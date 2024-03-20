@@ -1,0 +1,33 @@
+Params: k = 20, numbers from range [-10; 10]
+
+
+Converged after 4010 iterations with residual: 0.099995
+Program execution time: 16.742106 seconds for 1002 grid
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 13.541811 seconds for 1002 grid
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 13.541428 seconds for 1002 grid
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 13.434309 seconds for 1002 grid
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 13.377954 seconds for 1002 grid
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 13.640091 seconds for 1002 grid
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 13.457262 seconds for 1002 grid
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 13.453132 seconds for 1002 grid
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 13.356891 seconds for 1002 grid
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 13.380935 seconds for 1002 grid
+
