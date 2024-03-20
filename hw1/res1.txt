@@ -1,0 +1,47 @@
+Params: k = 20, numbers from range [-1000; 1000]
+
+Converged after 4010 iterations with residual: 0.099995
+Program execution time: 12.769414 seconds for 1002 grid
+
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 12.783998 seconds for 1002 grid
+
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 12.852830 seconds for 1002 grid
+
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 13.098864 seconds for 1002 grid
+
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 14.127414 seconds for 1002 grid
+
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 16.992241 seconds for 1002 grid
+
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 12.741269 seconds for 1002 grid
+
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 12.882218 seconds for 1002 grid
+
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 13.723056 seconds for 1002 grid
+
+
+Converged after 4010 iterations with residual: 0.099995 
+Program execution time: 13.314245 seconds for 1002 grid
+
+
+13.5285549 - среднее
+1.301664823 - стандартное отклонение
+0.754551 - абсолютная погрешность при коэф-те доверия 90%
+13 +- 0.754551 - доверительный интервал.
+

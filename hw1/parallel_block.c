@@ -9,34 +9,49 @@
 //#define NB 2
 #define eps 0.1
 
-
+double u_(double x, double y, double h) {
+    if (y == 0){
+        return 100.0 - 200.0 * pow(x, 1) * h;
+    }
+    if(x == 0){
+        return 100 - 200 * pow(y, 1) * h;
+    }
+    if(y == 1){
+        return -100 + 200 * pow(x, 1) * h;
+    }
+    if(x == 1) {
+        return -100 + 200 * pow(y, 1) * h;
+    }
+    return 0;
+}
 void init(double **u, int N){
     double h = 1.0 / (N - 1);
+
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
             if (i == 0 || i == N - 1 || j == 0 || j == N - 1) {
                 if (i == 0) {
-                    u[i][j] = 100 - 200 * h * j; // Граничное условие f(0, y) = 100 - 200y
+                    u[i][j] = 20 * u_(i, j, h); // Граничное условие f(0, y) = 100 - 200y
                     if (j == N - 1) {
                         continue;
                     }
                 }
 
                 if (i == (N - 1)) {
-                    u[i][j] = -100 + 200 * h * j; // Граничное условие f(1, y) = -100 + 200y
+                    u[i][j] = 20 * u_(i, j, h); // Граничное условие f(1, y) = -100 + 200y
                 }
 
                 if (j == 0) {
-                    u[i][j] = 100 - 200 * h * i; // Граничное условие f(x, 0) = 100 - 200x
+                    u[i][j] = 20 * u_(i, j, h); // Граничное условие f(x, 0) = 100 - 200x
                 }
 
                 if (j == (N - 1)) {
-                    u[i][j] = -100 + 200 * h * i; // Граничное условие f(x, 1) = -100 + 200x
+                    u[i][j] = 20 * u_(i, j, h); // Граничное условие f(x, 1) = -100 + 200x
                 }
             } else {
                 int num = (rand() %
-                           (100 - (-100) + 1)) + (-100);
-                u[i][j] = 0; // Внутри области D задаем случайное значение
+                           (10 - (-10) + 1)) + (-10);
+                u[i][j] = 20 * num; // Внутри области D задаем случайное значение
             }
         }
     }
@@ -136,9 +151,11 @@ int main() {
     omp_set_num_threads(8);
 //    int NB = 4096;
 //    int NB_bad = 4097;
-    int NB = 800;
+    int NB = 125;
 //    int NB_bad = 125;
-    unsigned int matrix_size[] = {NB * 4, NB * 8};
+    unsigned int matrix_size[] = {1002};
+//    unsigned int matrix_size[] = {NB * 4, NB * 8};
+
 //    unsigned int matrix_size[] = {NB_bad * 8, NB_bad * 24};
 
 
@@ -172,11 +189,12 @@ int main() {
         printf("Program execution time: %f seconds for %d grid\n\n", time_taken, matrix_size[l]);
 //    printf("\n");
 
-//    for (int n = 0; n < N; n++) {
-//        for (int j = 0; j < N; j++) {
-//            printf("%.2f\t", u[n][j]);
-//        }
-//        printf("\n");
+    for (int n = 0; n < matrix_size[0]; n++) {
+        for (int j = 0; j < matrix_size[0]; j++) {
+            printf("%.2f\t", u[n][j]);
+        }
+        printf("\n");
+    }
 //    }
         for (int i = 0; i < matrix_size[l]; i++) {
             free(u[i]);

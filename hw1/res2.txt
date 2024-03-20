@@ -1,4 +1,7 @@
-Converged after 4010 iterations with residual: 0.099995 
+Params: k = 20, numbers from range [-100; 100]
+
+
+Converged after 4010 iterations with residual: 0.099995
 Program execution time: 12.838951 seconds for 1002 grid
 
 Converged after 4010 iterations with residual: 0.099995 
@@ -28,3 +31,7 @@ Program execution time: 12.818663 seconds for 1002 grid
 Converged after 4010 iterations with residual: 0.099995 
 Program execution time: 12.848389 seconds for 1002 grid
 
+12.8538317 - среднее
+0.04435124427 - стандартное отклонение
+0.025710 - погрешность
+12.8538317 +- 0.025710 - доверительный интервал
